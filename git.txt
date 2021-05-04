@@ -41,3 +41,9 @@ git rm file1
 
 # 7 игнорирование файлов 
 -делаем файл .gitignore
+
+# Смена пользователя
+git config --global credential.username "Pavel Shift"
+
+# Отправка изменнеий в репозиторий
+git push -u origin main
