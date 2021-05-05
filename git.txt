@@ -57,6 +57,9 @@ git pull
 # 4 Отправка изменений в репозиторий
 git push -u origin main
 
+# 5 Копирование репозитория на свой ПК
+git clone https://github.com/name/name1.git
+
 # 1 Показ существующих веток
 git branch
 
@@ -75,4 +78,3 @@ git branch -D new
 # 6 Перемещение указателя
 git reset --hard 3473547...
 
-ЏаЁўҐв
