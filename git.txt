@@ -47,3 +47,12 @@ git config --global credential.username "Pavel Shift"
 
 # Отправка изменнеий в репозиторий
 git push -u origin main
+
+# Показ существующих веток
+git branch
+
+# Новая ветка
+git branch new
+
+# Переход на ветку
+git checkout new
