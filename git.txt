@@ -45,6 +45,9 @@ git rm file1
 # Смена пользователя
 git config --global credential.username "Pavel Shift"
 
+# Получение из репозитория
+git pull
+
 # Отправка изменнеий в репозиторий
 git push -u origin main
 
@@ -62,3 +65,7 @@ git merge new
 
 # 5 Удаление ветки
 git branch -D new
+
+# 6 Перемещение указателя
+git reset --hard 3473547...
+
