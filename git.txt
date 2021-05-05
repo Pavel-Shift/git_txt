@@ -45,10 +45,16 @@ git rm file1
 # Смена пользователя
 git config --global credential.username "Pavel Shift"
 
-# Получение из репозитория
+# 1 подключение репозитория
+git remote add origin ссылка
+
+# 2 просмотр текущих репозиториев
+git remote -v
+
+# 3 Получение из репозитория
 git pull
 
-# Отправка изменнеий в репозиторий
+# 4 Отправка изменений в репозиторий
 git push -u origin main
 
 # 1 Показ существующих веток
