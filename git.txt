@@ -75,3 +75,4 @@ git branch -D new
 # 6 Перемещение указателя
 git reset --hard 3473547...
 
+ЏаЁўҐв
